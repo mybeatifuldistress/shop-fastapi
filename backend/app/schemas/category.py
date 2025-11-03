@@ -15,4 +15,4 @@ class CategoryResponse(CategoryBase):
         description="Unique category indetifier")
 
     class Config:
-        form_attributes = True
+        from_attributes = True
